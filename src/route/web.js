@@ -4,6 +4,9 @@ let router = express.Router();
 
 let initWebRouters= (app) =>{
     router.get('/',homeCotroller.getHomePage);
+    router.get('/registerUser',homeCotroller.getRegisterUser);
+    
+   router.post('/checkRegister',homeCotroller.checkRegister); 
     return  app.use("/",router);
 }
 

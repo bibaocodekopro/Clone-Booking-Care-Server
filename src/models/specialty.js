@@ -14,11 +14,12 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   Specicalty.init({
+      name: DataTypes.STRING,
       description: DataTypes.TEXT,
       image: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'Specialty',
+    modelName: 'Specicalty',
   });
   return Specicalty;
 };

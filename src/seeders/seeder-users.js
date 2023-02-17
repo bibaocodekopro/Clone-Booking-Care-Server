@@ -8,9 +8,11 @@ module.exports = {
       firstName:'Nguyen',
       lastName:'Bao',
       address:'Dai Hoc Sai Gon',
+      phoneNumber:'0382460421',
       gender:1,
-      typeRole:'ROLE',
-      keyRole:'R1',
+      image:'anhdaidien.png',
+      roleId:'R1',
+      position:'bac si chuyen khoa',
       createdAt:new Date(),
       updatedAt:new Date()
     }]);
