@@ -17,6 +17,10 @@ module.exports = {
       doctorId: {
         type: Sequelize.INTEGER
       },
+      files:{
+        allowNull:false,
+        type: Sequelize.TEXT
+      },
        createdAt: {
         allowNull: false,
         type: Sequelize.DATE

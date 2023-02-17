@@ -30,15 +30,21 @@ module.exports = {
       address: {
         type: Sequelize.STRING
       },
+      phoneNumber: {
+        type: Sequelize.STRING
+      },
       gender:{
         allowNull: false,
         type: Sequelize.BOOLEAN
       },
-      typeRole:{
+      image: {
+        type: Sequelize.STRING
+      },
+      roleId:{
         allowNull: false,
         type: Sequelize.STRING
       },
-      keyRole:{
+      position:{
         allowNull: false,
         type: Sequelize.STRING
       },
