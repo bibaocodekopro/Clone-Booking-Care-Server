@@ -59,6 +59,7 @@ let getDeleteCRUD = async(req, res) => {
   await servicesCRUD.getDeleteCRUD(id);
   return res.send('delete user successfully');
 }
+
 module.exports = {
   getHomePage: getHomePage,
   getRegisterUser: getRegisterUser,
@@ -67,4 +68,5 @@ module.exports = {
   getEditCRUD: getEditCRUD,
   getPutCRUD: getPutCRUD,
   getDeleteCRUD:getDeleteCRUD,
+
 };
