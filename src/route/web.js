@@ -12,9 +12,10 @@ let initWebRouters= (app) =>{
    router.post('/put-crud',homeController.getPutCRUD);
    router.get('/delete-crud',homeController.getDeleteCRUD);
 
-   router.get('/api/login',userController.handleLogin);
+   router.post('/api/login',userController.handleLogin);
   
     return  app.use("/",router);
+   
 }
 
 module.exports= initWebRouters;
