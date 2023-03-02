@@ -11,7 +11,7 @@ let getHomePage = async (req, res) => {
     console.log(e);
   }
 };
-let getRegisterUser = async (rep, res) => {
+let getRegisterUser = async (req, res) => {
   try {
     return res.render("registerUser.ejs");
   } catch (e) {
