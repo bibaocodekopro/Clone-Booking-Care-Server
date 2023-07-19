@@ -2,17 +2,17 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable('allcodes', {
-        // key: DataTypes.STRING,
-        // type: DataTypes.STRING,
-        // valueEN: DataTypes.STRING,
-        // valueVI:DataTypes.STRING
+      // key: DataTypes.STRING,
+      // type: DataTypes.STRING,
+      // valueEN: DataTypes.STRING,
+      // valueVI:DataTypes.STRING
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-       key: {
+      key: {
         type: Sequelize.STRING
       },
       type: {
